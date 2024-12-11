@@ -1,0 +1,220 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #eab4b4; /* Soft gray */
+    line-height: 1.6;
+    background: #f5f7e7; /* Light green tint */
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(45deg, #e7ede2, #cdd790); /* Soft greens */
+    color: #8c75d7; /* Dark green */
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #a96c97; /* Earthy green */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #bfe0a8; /* Pale green hover effect */
+}
+
+/* Main Section Styling */
+#homepage-main {
+    padding: 2rem 5%;
+    max-width: 1200px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(45deg, #eaf6df, #c9e4c5); /* Subtle greens */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#homepage-main p {
+    font-size: 1.2rem;
+    margin-top: 145px;
+    color: #3b3b3b; /* Soft gray */
+}
+
+/* Specific Styling for Bio-data Page Main Section */
+#biodata-main {
+    background-color: #ffffff;
+    padding: 2rem;
+    border: 2px solid #b7d3b4; /* Muted green */
+    border-radius: 10px;
+}
+
+/* Resume Container */
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #d0e4d1; /* Light green */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #345830; /* Dark green */
+}
+
+.header-left p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #3b3b3b; /* Soft gray */
+}
+
+.header-left a {
+    color: #345830; /* Dark green */
+    text-decoration: none;
+}
+
+.header-right img {
+    max-width: 200px;
+    height: 200px;
+    border: 2px solid #d0e4d1; /* Green border */
+}
+
+h2 {
+    color: #61875f; /* Earthy green */
+    margin-top: 20px;
+    border-bottom: 2px solid #d0e4d1; /* Light green */
+    padding-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #d0e4d1; /* Light green border */
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #edf7eb; /* Soft green */
+    color: #3b3b3b; /* Soft gray */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background: linear-gradient(45deg, #e9f3e1, #c9e4c5); /* Soft greens */
+    color: #345830; /* Dark green */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Biodata Page Styling */
+#biodata-main {
+    padding: 2rem;
+    background-color: #edf7eb; /* Soft green */
+    color: #3b3b3b; /* Soft gray */
+    max-width: 900px;
+    margin: auto;
+    border: 1px solid #d0e4d1; /* Green border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.biodata-form h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    color: #61875f; /* Earthy green */
+    margin-bottom: 20px;
+}
+
+.form-right img {
+    background-color: #ffffff;
+}
+
+.declaration h3 {
+    color: #345830; /* Dark green */
+}
+
+.signature p {
+    color: #345830; /* Dark green */
+}
+
+/* Section Styling */
+section h3 {
+    color: #61875f; /* Earthy green */
+}
+/* Default light mode (already defined in your style.css) */
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+}
+
+header.dark-mode, footer.dark-mode {
+    background: linear-gradient(45deg, #333, #444); /* Dark gradients */
+    color: #e0e0e0;
+}
+
+nav a.dark-mode {
+    color: #bb86fc; /* Light purple links */
+}
+
+.resume-container.dark-mode, #biodata-main.dark-mode, #homepage-main.dark-mode {
+    background: #1e1e1e; /* Dark containers */
+    color: #e0e0e0;
+    border-color: #3e3e3e;
+}
+
+.dark-mode table th {
+    background-color: #2b2b2b; /* Dark header for tables */
+    color: #e0e0e0;
+}
+
+.dark-mode table td {
+    border-color: #3e3e3e; /* Dark table border */
+}
+
